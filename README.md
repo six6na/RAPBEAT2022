@@ -1,5 +1,5 @@
 # rapbeatBanner
-주소: https://six6na.github.io/rapbeatBanner/
+주소: https://six6na.github.io/RAPBEAT2022/
 # RAPBEAT 2022 애니메이션 배너
 ![rapbeat](https://user-images.githubusercontent.com/105402240/174287962-84467ba0-9f9c-4f71-aab0-b702fb6c6f34.png)
 # 기능
