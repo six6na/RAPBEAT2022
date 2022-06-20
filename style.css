@@ -1,0 +1,130 @@
+/* style.css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 700px;
+    height: 460px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.banner {
+    display: block;
+    width: 700px;
+    height: 460px;
+    background: #fff;
+    border: 1px solid black;
+    background-image: url(images/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.ticket {
+    position: absolute;
+    top: 77px
+}
+
+h1 {
+    text-align: center;
+    width: 700px;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.rap {
+    width: 2100px;
+    height: 70px;
+    /*border-right: 1px solid black;*/
+}
+
+#rap1 {
+    position: absolute;
+    top: 1px;
+    animation-name: rap1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-image: url(./images/raps.png);
+    background-repeat: no-repeat;
+    animation-timing-function: linear;
+}
+
+@keyframes rap1 {
+    0% {
+        margin-left: -600px;
+    }
+    100% { }
+}
+
+#rap2 {
+    position: absolute;
+    top: 389px;
+    animation-name: rap1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-image: url(./images/raps.png);
+    background-repeat: no-repeat;
+    animation-timing-function: linear;
+}
+
+#star1 {
+    position: absolute;
+    top: 165px;
+    left: 645px;
+}
+
+#star2 {
+    position: absolute;
+    top: 190px;
+    left: 600px
+}
+
+#star3 {
+    position: absolute;
+    top: 150px;
+    left: 610px;
+}
+
+#star4 {
+    position: absolute;
+    top: 310px;
+    left: 350px;
+}
+
+#star5 {
+    position: absolute;
+    top: 340px;
+    left: 383px;
+}
+
+.star {
+    animation-name: stars;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stars {
+    50% {
+        transform: scale(0.5);
+    }
+}
